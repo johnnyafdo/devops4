@@ -27,10 +27,10 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Hola Mundo
-        run: HOLA JOHNNY
+        run:  echo hola Johnny,
 
       # Runs a set of commands using the runners shell
-      - name: IMPRIMIR MULTIPLES LINEAS
+      - name: Imprimir multiples lineas
         run: |
           echo Add other actions to build,
           echo test, and deploy your project.
